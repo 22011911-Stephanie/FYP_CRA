@@ -27,7 +27,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import jakarta.validation.Valid;
 
-@Controller
+@Controller 
 public class dataController {
 
     @Autowired

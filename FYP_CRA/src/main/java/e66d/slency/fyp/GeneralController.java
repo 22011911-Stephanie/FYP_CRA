@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class GeneralController {
 	
-	@GetMapping("/")
+	@GetMapping("/") 
 	public String general() {
 		return "index";
 	}

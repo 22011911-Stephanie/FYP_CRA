@@ -10,6 +10,6 @@ package e66d.slency.fyp;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface dataRepository extends JpaRepository<data, Integer> {
-	
+	 
 		
 }

@@ -27,7 +27,7 @@ import jakarta.validation.constraints.Pattern;
 
 @Entity
 public class data{
-	
+	 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int id;
